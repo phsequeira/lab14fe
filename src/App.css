@@ -76,3 +76,7 @@ img {
     object-fit: contain;
     padding-top: 10px;
 }
+
+.home {
+  text-align: center;
+}

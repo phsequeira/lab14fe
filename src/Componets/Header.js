@@ -6,7 +6,11 @@ export default class Header extends Component {
         return (
             <div className='header'>
                 <NavLink to="/">Home</NavLink>
+                {
+                this.props.user && this.props.user.token && <>
                 <NavLink to="/search">Search</NavLink>
+                </>
+                }
                 {
                 this.props.user && this.props.user.token && <>
                 <NavLink to="/favorites">Favorites</NavLink>
