@@ -1,7 +1,7 @@
 import request from 'superagent';
 
 
-const URL = 'http://localhost:3005';
+const URL = 'https://shrouded-shore-88839.herokuapp.com';
 
 export async function signUpUser(email, password) {
     const response = await request
